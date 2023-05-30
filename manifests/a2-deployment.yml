@@ -14,7 +14,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: docker_assignment2_app
-        image: germanbook/docker_assignment2kub
+      - name: a2-container-bowen
+        image: germanbook/a2-img-bowen:v1
         ports:
         - containerPort: 80
